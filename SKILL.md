@@ -3,7 +3,7 @@ name: wine-identifier
 description: >-
   Identify a wine from a photo of its label (front, back, or capsule) or from a name and vintage,
   then research it on the web and report verified facts only: the producer (with official website),
-  the wine itself (grapes, region, appellation, style, ageing), tasting notes, food pairings, the
+  the wine itself (grapes, region, appellation, style, ageing), tasting notes, when to drink it, food pairings, the
   characteristics of that specific vintage when they are documented, and the current bottle price on
   the European market in EUR with source links. Use this skill whenever the user shares a picture of
   a bottle or a wine label, names a wine (even misspelled or partial, e.g. "Tignanello 2019",
@@ -80,8 +80,9 @@ Run several focused searches rather than one broad one. Typical sequence, in ord
    "fiche technique") and is the single richest source; open it when the HTML page is thin. When
    the producer omits a detail such as alcohol or blend percentages, a retailer figure is fine if
    you say where it comes from.
-3. Reviews and scores for this vintage: Decanter, Wine Spectator, Wine Advocate, Vinous, James
-   Suckling, Jancis Robinson, Gambero Rosso, Falstaff, Guía Peñín, and Vivino community notes.
+3. Reviews, scores and drinking windows for this vintage: Decanter, Wine Spectator, Wine
+   Advocate, Vinous, James Suckling, Jancis Robinson, Gambero Rosso, Falstaff, Guía Peñín, and
+   Vivino community notes.
    Two or three sources are enough.
 4. Vintage report for the region and year when no wine-specific vintage information exists.
 5. Prices in EUR on the European market: wine-searcher.com (set to EUR or a EU country), Vivino,
@@ -124,7 +125,15 @@ Scores with source and vintage, if found.
 
 ### Vintage <year>
 What is known about this vintage of this wine, or of the region in that year, clearly marked as
-one or the other. Drinking window if a source gives one. "Not found" if nothing reliable exists.
+one or the other. "Not found" if nothing reliable exists.
+
+### When to drink
+The recommended drinking window in years. If the vintage is known, give calendar years
+("best between 2027 and 2040, drinkable now") and say where the wine is today relative to it.
+If the vintage is unknown or the wine is non-vintage, give years from the harvest or from release
+("within 2-3 years of the harvest", "5 to 15 years"). Prefer a window from a critic or the
+producer for this vintage; a general window for this wine or this type of wine is acceptable if
+labelled as such. "Not found" if no source gives one.
 
 ### Food pairings
 Three to six pairings, favouring the producer's or a critic's suggestions. When no source gives

@@ -19,6 +19,8 @@ Conterno", and the skill answers with:
 - **Tasting notes and scores**: attributed to the critic or the producer who wrote them.
 - **Vintage**: what is documented about that vintage of that wine, or of the region in that year,
   clearly labelled as one or the other.
+- **When to drink**: the recommended window in calendar years when the vintage is known, otherwise
+  in years from the harvest.
 - **Food pairings**.
 - **Price in EUR**: a range for a 750 ml bottle with individual price points and links to the shops
   or aggregators where they were found, dated.
