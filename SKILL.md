@@ -29,7 +29,9 @@ smaller estates. Memory is fine for forming search queries and interpreting resu
 Concretely:
 
 - Prices are quoted only when found on a page you actually opened or that appeared in search
-  results with the amount visible. Say which shop or aggregator and when (today's date).
+  results with the amount visible. Say which shop or aggregator and when (today's date). Many
+  retailers and aggregators block automated page fetches, so a price seen only in a search result
+  is normal: keep it, but label it "seen in search results, not verified on the page".
 - Vintage characteristics are reported only when a source talks about that vintage of that wine
   (producer's technical sheet, a critic's review) or, as a fallback, about that vintage in that
   region (a vintage report). Label which of the two you found. If neither exists, say so instead
@@ -74,7 +76,10 @@ Run several focused searches rather than one broad one. Typical sequence, in ord
 1. `"<producer>" "<wine name>" <vintage>` to confirm the wine exists and find the producer's page.
 2. The producer's official site: technical sheet (grapes, vineyard, vinification, ageing, alcohol),
    history, location, size, and the page for this specific wine. Prefer it over any third party
-   for the facts about the wine itself.
+   for the facts about the wine itself. The technical sheet is often a PDF ("scheda tecnica",
+   "fiche technique") and is the single richest source; open it when the HTML page is thin. When
+   the producer omits a detail such as alcohol or blend percentages, a retailer figure is fine if
+   you say where it comes from.
 3. Reviews and scores for this vintage: Decanter, Wine Spectator, Wine Advocate, Vinous, James
    Suckling, Jancis Robinson, Gambero Rosso, Falstaff, Guía Peñín, and Vivino community notes.
    Two or three sources are enough.
@@ -88,8 +93,9 @@ Run several focused searches rather than one broad one. Typical sequence, in ord
 See `references/sources.md` for what each source is good for and how to query it. Read it when the
 first searches do not land or the wine is from a less common region.
 
-Stop researching once the card can be filled with sourced facts. Five to eight searches is a normal
-budget; more than that rarely adds value and slows down someone waiting in a shop.
+Stop researching once the card can be filled with sourced facts. Five to eight searches plus a
+handful of page fetches is a normal budget; more than that rarely adds value and slows down someone
+waiting in a shop. Do not keep retrying pages that refuse to load: note the gap and move on.
 
 ## Step 3: Write the card
 
@@ -100,7 +106,8 @@ as plain markdown links. Use this structure and keep the headings:
 ```
 ## <Producer> – <Wine name> <vintage>
 One line: appellation, region, country, colour and style (e.g. dry red, brut sparkling), alcohol.
-Confidence in the identification if it is not certain, and what was read from the label.
+Confidence in the identification (one word if certain, a sentence if not) and what was read from
+the label.
 
 ### Producer
 Two to four sentences: who they are, where, since when, size or philosophy, anything notable.
@@ -119,8 +126,8 @@ What is known about this vintage of this wine, or of the region in that year, cl
 one or the other. Drinking window if a source gives one. "Not found" if nothing reliable exists.
 
 ### Food pairings
-Three to six pairings, favouring the producer's or a critic's suggestions, and local cuisine of
-the wine's region when it is a traditional style. Keep generic pairings short.
+Three to six pairings, favouring the producer's or a critic's suggestions. When no source gives
+any, pairings from the traditional cuisine of the wine's region are fine; say they are yours.
 
 ### Price (Europe)
 A range in EUR for a 750 ml bottle of this vintage, then the individual price points as

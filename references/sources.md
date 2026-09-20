@@ -53,7 +53,7 @@ Always label the result as "region-level" when it is not about the specific wine
 
 | Source | Notes |
 | --- | --- |
-| wine-searcher.com | Aggregator; append `EUR` or search `site:wine-searcher.com <wine> <vintage>`. Shows a global average and per-merchant prices; filter to EU merchants when possible |
+| wine-searcher.com | Aggregator; search `site:wine-searcher.com <wine> <vintage>`. Shows a global average and per-merchant prices. Its pages usually refuse automated fetches, so read the amounts from the search snippet |
 | Vivino | Shows a price per country; the Vivino price is a market indication, not a shop offer |
 | Tannico, Callmewine, xtraWine, Vino.com, Bernabei | Italian retailers, EUR |
 | Vinatis, Millesima, Lavinia, Idealwine (auction) | French retailers, EUR |
@@ -61,6 +61,9 @@ Always label the result as "region-level" when it is not about the specific wine
 | Uvinum / Drinks&Co, Vinissimus, Bodeboca | Spanish retailers, EUR |
 | Flaschenpost, Coop Mondovino, Denner, Vinatis.ch | Swiss retailers, CHF (state it and give an approximate EUR conversion only if a rate is checked) |
 | Berry Bros, Farr Vintners, Justerini & Brooks | UK, GBP; useful for fine wine but not EU market |
+
+Retailer search pages rarely render for an automated fetch; product pages sometimes do. Search
+`<retailer> <wine> <vintage>` and open the product page from the result instead of guessing URLs.
 
 Rules of thumb:
 
