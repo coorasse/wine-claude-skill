@@ -88,7 +88,8 @@ Run several focused searches rather than one broad one. Typical sequence, in ord
    and European retailers such as Tannico, Callmewine, xtraWine, Vinatis, Millesima, Lavinia,
    Uvinum, Hawesko, Weinco, Berry Bros (UK, note it is GBP). Collect two to four price points for
    the exact vintage in 750 ml. If the exact vintage is not on sale, say so and give the closest
-   vintage available, clearly labelled.
+   vintage available, clearly labelled. Marketplace and comparator figures (eBay, Kelkoo,
+   Trovaprezzi, idealo) are acceptable only as "indicative" prices, never as a shop offer.
 
 See `references/sources.md` for what each source is good for and how to query it. Read it when the
 first searches do not land or the wine is from a less common region.
